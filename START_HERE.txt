@@ -1,0 +1,44 @@
+DAVINAUTOSWIPE — HOW TO GET YOUR INSTALLABLE APK
+=================================================
+
+This download contains real Android app source code, NOT an APK yet.
+The following free cloud build produces app-debug.apk, which you can install
+on your phone. You do NOT need Android Studio.
+
+EASIEST ROUTE: ON A WINDOWS LAPTOP WITH A GITHUB ACCOUNT
+-------------------------------------------------------
+1. Open https://github.com/new and create a repository named DavinAutoSwipe.
+2. Download the ZIP, right-click > Extract All. Open DavinAutoSwipe-Android.
+3. In your new GitHub repository, click "uploading an existing file"
+   (or Add file > Upload files).
+4. Drag *all files and folders inside* DavinAutoSwipe-Android into the
+   GitHub upload window; INCLUDE the .github folder. Keep the directory tree.
+   Do not upload the ZIP itself or place the whole parent folder inside the repo.
+5. Click Commit changes. GitHub Actions starts building automatically.
+6. In the repository, open Actions > Build DavinAutoSwipe APK > the latest run.
+7. Once the build is successful (green check), scroll down to Artifacts and
+   download app-debug.apk. It should download directly, no unzip required.
+8. Transfer the APK to your Android phone (USB, Drive or other trusted method).
+9. On the phone, tap app-debug.apk > Install. Then launch DavinAutoSwipe.
+10. In the app, allow the specifically disclosed Accessibility service,
+    set 55 seconds, choose Facebook / Shopee, then tap Start.
+
+IF ANDROID SAYS 'RESTRICTED SETTING'
+------------------------------------
+Android 13+ can restrict accessibility permissions on sideloaded apps.
+Only if you have read and trust the code: Settings > Apps > DavinAutoSwipe
+> three dots > Allow restricted settings (if your device offers it), then
+return to Accessibility settings and enable "DavinAutoSwipe Auto Scroll".
+Google's official reference: https://support.google.com/android/answer/12623953
+
+NOTES
+-----
+- This Android app uses an Accessibility Service: permission is powerful.
+- It has no Internet permission and sends no data off the device.
+- It swipes while the official Facebook/Facebook Lite/Shopee PH app is active;
+  it cannot detect whether you're viewing a specific video screen.
+- Keep the screen unlocked for swiping. Use the floating STOP control.
+- APK is for your own testing and is not published on Google Play.
+- The project has NOT been compiled or tested in the authoring environment.
+
+You can also use Android Studio and Build > Build APK(s) on your computer.

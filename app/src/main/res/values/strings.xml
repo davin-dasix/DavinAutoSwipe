@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DavinAutoSwipe</string>
+    <string name="accessibility_description">When you explicitly start auto-scroll, DavinAutoSwipe checks which app is in front and swipes up after your chosen interval, only in Facebook or Shopee. It does not collect, store, or transmit screen content, passwords, or messages. Use the floating controls to pause or stop.</string>
+</resources>
